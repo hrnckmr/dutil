@@ -10,7 +10,7 @@ print(fname)
 #print_name
 fname = [k for k in fname.keys()][0]
 print(fname)
-#change_the_json_name
+#change fname
 import os
 os.rename(fname,'dsecret.txt')
 ```
