@@ -20,9 +20,9 @@ import os
 os.rename(fname,'dsecret.txt')
 ```
 
-
-'''
+check drop box folder like this:
+```
 from dutil import dutil
 dbx = dutil.token()
 dutil.display(dbx)
-'''
+```
