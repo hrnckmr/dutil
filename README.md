@@ -3,10 +3,9 @@
 install dropbpx by pip  
 ```
 ! pip install dropbox
-```
+```  
 
 create text file which include Generated access token in first line  
-
 from google colaboratory, you can upload text file as following
 ```
 #file_upload_dialog
