@@ -22,7 +22,7 @@ def display(token,path='',recursive=False):
     """
     display=[]
     dbx=dropbox.Dropbox(token)
-    for entry in dbx.files_list_folder(path,recursive=False).entries:
+    for entry in dbx.files_list_folder(path,recursive).entries:
         display.append(entry.name)
     return display
 
