@@ -15,14 +15,14 @@ def token(path="./"):
     secret_str=secret[0].replace('\ufeff',"")
     return secret_str
 
-def display(token,path=''):
+def display(token,path='',recursive=False):
     """
     token: dutil.token()
     path: dropbox folder
     """
     display=[]
     dbx=dropbox.Dropbox(token)
-    for entry in dbx.files_list_folder(path).entries:
+    for entry in dbx.files_list_folder(path,recursive=False).entries:
         display.append(entry.name)
     return display
 
