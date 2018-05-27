@@ -26,3 +26,8 @@ from dutil import dutil
 dbx = dutil.token()
 dutil.display(dbx)
 ```
+
+and download as following:
+```
+dutil.dwnld(dbx,file path)
+```
