@@ -19,3 +19,10 @@ print(fname)
 import os
 os.rename(fname,'dsecret.txt')
 ```
+
+
+'''
+from dutil import dutil
+dbx = dutil.token()
+dutil.display(dbx)
+'''
